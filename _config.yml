@@ -3,7 +3,7 @@ description: 落霞与孤鹜齐飞，秋水共长天一色~
 show_downloads: true
 
 baseurl: "/blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://keweizhou.github.io" # change this to the base hostname & protocol for your site
+url: "https://nuptkwz.github.io" # change this to the base hostname & protocol for your site
 
 google_analytics:
 
