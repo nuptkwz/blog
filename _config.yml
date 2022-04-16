@@ -1,0 +1,38 @@
+title: KeWeiZhou's Blog
+description: 落霞与孤鹜齐飞，秋水共长天一色~
+show_downloads: true
+
+baseurl: "/blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://keweizhou.github.io" # change this to the base hostname & protocol for your site
+
+google_analytics:
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+# social
+author: KeWeiZhou
+image: /thumbnail-jumbo.png
+
+github:
+  owner_url: "https://github.com/nuptkwz/blog"
+
+plugins:
+  - jekyll-target-blank
+  - jekyll-paginate
+
+target-blank:
+    rel: nofollow
+
+header_page_refs: ['now', 'about', 'contact']
+
+permalink: /:year/:month/:day/:title
+
+# 每页有几个项目
+paginate: 10
+paginate_path: "page/:num/"
+
