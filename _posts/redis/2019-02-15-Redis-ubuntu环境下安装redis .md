@@ -15,7 +15,7 @@ category: 'Redis'
 ## redis的优势?
  - 高性能Key - Value 服务器
  - 多种数据结构
- - 丰富的功能（pepeline、发布订阅、慢查询、GEO等）
+ - 丰富的功能（pipeline、发布订阅、慢查询、GEO等）
  - 高可用分布式支持
 redis在GitHub、twitter、stackoverflow、阿里、百度、微博、美团、搜狐等等公司广泛的应用。
 ## redis的特性
