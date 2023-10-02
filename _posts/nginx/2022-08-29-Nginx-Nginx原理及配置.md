@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2022-08-29-Nginx--Nginx原理及配置"
+title: "Nginx--Nginx原理及配置"
 category: 'Nginx'
 ---
 
