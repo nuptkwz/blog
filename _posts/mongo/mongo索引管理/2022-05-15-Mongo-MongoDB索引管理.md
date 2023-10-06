@@ -42,7 +42,7 @@ userId内，再按照core倒序排序(比如图中的ca2三个一样，然后在
 
 ## 多键索引
 在数组的属性上建立索引，针对这个数组的任意值的查询都会定位到这个文档，既多个索引入口或者键值引用同一个文档
-![mongo多键索引](./images/index_multikey.png)
+![mongo多键索引](../images/index_multikey.png)
 创建集合：
 ```
 db.inventory.insertMany([
@@ -220,7 +220,7 @@ is_detail:可选参数，传入0或者false外的任意数据，都会显示该�
 db.collection.createIndex(keys,options)
 ```
 参数的可以选项options：
-![索引的可以选项](./images/index_create_options.png)
+![索引的可以选项](../images/index_create_options.png)
 3.0.0版本之前创建索引方法为：db.collection.ensureIndex()
 ```javascript
 //创建索引后台执行
@@ -269,12 +269,12 @@ db.collection.find().explain(<berbose>)
 ```
 berbose可选模式有3种。
 - queryPlanner
-![queryPlanner模式](./images/index_explain_queryPlanner.png)
+![queryPlanner模式](../images/index_explain_queryPlanner.png)
 
 
 - executionStats
 executionStats模式的返回信息中包括了queryPlanner模式的所有字段，并且包含了最佳执行计划的执行情况。
-![executionStats模式](./images/index_explain_executionStats.png)
+![executionStats模式](../images/index_explain_executionStats.png)
 
 - allPlansExecution
 allPlansExecution返回的信息包含executionStats模式的内容，且包含allPlansExecution:[]块
@@ -285,7 +285,7 @@ allPlansExecution返回的信息包含executionStats模式的内容，且包含a
 db.collection.find(query,options).explain(options)
 ```
 执行计划中的stage类型
-![stage类型](./images/index_explain_stage.png)
+![stage类型](../images/index_explain_stage.png)
 - COLLSCAN : 集合扫描，说明没有用到索引走的是全表扫描
 - FETCH : 抓取，根据索引去检索
 
