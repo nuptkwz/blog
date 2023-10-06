@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Redis--redis基础以及ubuntu16.04环境下搭建"
+title: "Redis--redis常用数据类型及API使用"
 category: 'Redis'
 ---
 
