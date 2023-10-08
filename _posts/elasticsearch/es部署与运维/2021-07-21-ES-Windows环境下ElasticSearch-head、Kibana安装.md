@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Windows环境下ElasticSearch-head、Kibana安装"
+category: 'ElasticSearch'
+---
+
+
 # elasticsearch-head-master
 ## 安装
 - npm install

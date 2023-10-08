@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Linux环境下ElasticSearch集群部署"
+category: 'ElasticSearch'
+---
+
+
 @[TOC]
 # 前言
 > 本文介绍了在Linux下es集群的安装部署，本文中的集群为三个节点的机器。
