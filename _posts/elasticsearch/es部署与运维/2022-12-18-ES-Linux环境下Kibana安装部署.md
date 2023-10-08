@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Linux环境下Kibana安装部署"
+category: 'ElasticSearch'
+---
+
+
 # 前言
 > 本文主要介绍了Linux环境下Kibana的安装部署。
 

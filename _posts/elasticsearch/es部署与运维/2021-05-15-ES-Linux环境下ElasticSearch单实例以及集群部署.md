@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Linux环境下ElasticSearch单实例以及集群部署"
+category: 'ElasticSearch'
+---
+
+
 @[TOC]
 # 前言
 > 本文主要介绍了es的一些目录结果，以及在Linux下es单机与集群的部署。
