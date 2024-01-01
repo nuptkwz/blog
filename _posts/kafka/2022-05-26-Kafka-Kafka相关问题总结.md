@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kafka--kafka相关问题总结"
+category: 'Kafka'
+---
+
 # 前言
 > 本文主要介绍了学习kafka遇到的一些问题总结
 
