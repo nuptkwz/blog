@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kafka--Kafka分区分配策略"
+category: 'Kafka'
+---
+
 # 前言
 
 > 本文主要讲解了Kafka的分区分配策略

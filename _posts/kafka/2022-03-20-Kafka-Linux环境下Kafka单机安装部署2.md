@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kafka--Linux环境下Kafka集群安裝部署"
+category: 'Kafka'
+---
+
 > 本文介绍了linux下kafka的安装与部署，其中zookeeper采用kafka自带的
 
 # 1. 下载
@@ -20,7 +26,7 @@ tar -zxvf kafka_2.13-3.1.0.tgz
 - 进入kafka目录
 - 进入config目录
 - 修改kafka配置文件server.properties
-配置文件主要修改了日志的存放地址
+  配置文件主要修改了日志的存放地址
 ```
 log.dirs=/kafka/single/kafka_2.13-3.1.0/data/log
 port=9092
@@ -56,9 +62,3 @@ bin/kafka-server-start.sh config/server.properties
 ```
 ./bin/kafka-console-consumer.sh  --bootstrap-server localhost:9092 --topickeweizhou_1 --from-beginning
 ```
-
-
-
-
-
-

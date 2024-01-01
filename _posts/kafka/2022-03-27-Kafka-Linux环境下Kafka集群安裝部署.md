@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kafka--Kafka-Linux环境下Kafka单机安装部署"
+title: "Kafka--Linux环境下Kafka单机安装部署"
 category: 'Kafka'
 ---
 
